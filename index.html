@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kamar Ngoding | Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <!-- Form Header Section [Title] -->
+    <h1 id="title" class="title">Kamar Ngoding Survey Form</h1>
+    <p id="description" class="description">
+      Terima kasih telah bergabung bersama Kamar Ngoding dan terima kasih sudah memberikan waktunya untuk kami
+      meningkatkan layanan di platform ini.
+    </p>
+    <!-- Form Section -->
+    <form action="" id="survey-form">
+      <section class="user-information">
+        <!-- User Information Section -->
+        <label for="name-label" class="user-info-label">
+          Nama
+          <input type="text" name="user-name" id="name-label" placeholder="Masukkan Nama Anda" required />
+        </label>
+        <label for="email-label" class="user-info-label">
+          Alamat Email
+          <input type="email" name="user-email" id="email-label" placeholder="Masukkan Email Anda" required />
+        </label>
+        <label for="number-lable" class="user-info-label">
+          Umur (Opsional)
+          <input type="number" name="age" id="number-label" placeholder="Umur" min="15" max="100" />
+        </label>
+      </section>
+      <!-- User Role -->
+      <section class="user-role">
+        <label for="">
+            Silahkan Pilih Role Anda
+          <select name="role" id="dropdown">
+            <option value="" disabled>Silahkan Pilih Role Anda</option>
+            <option value="">Pelajar/Mahasiswa</option>
+            <option value="">Pekerja Paruh Waktu</option>
+            <option value="">Pekerja Full-time</option>
+            <option value="">Pekerja Remote/Freelancer</option>
+          </select>
+        </label>
+      </section>
+      <!-- User Experience -->
+      <section class="user-experience">
+        <h4 class="user-exp-label">Seberapa Menyenangkan Anda Ketika Berada di Kamar Ngoding?</h4>
+        <label for="">
+          <input type="radio" name="" id="" />
+          Sangat Menyenangkan
+        </label>
+        <label for="">
+          <input type="radio" name="" id="" />
+          Biasa aja
+        </label>
+        <label for="">
+          <input type="radio" name="" id="" />
+          Entahlah
+        </label>
+      </section>
+      <!-- User Suggestions to Improve Services -->
+       <section class="user-suggestions">
+        <h4 class="user-suggests">Hal Apa Saja Yang Perlu Kami Tingkatkan?</h4>
+        <label for="">
+            <input type="checkbox" name="" id="">
+            Course
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">
+            Discord Server
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">
+            Grup Telegram
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">
+            Forum
+        </label>
+        <label for="">
+            <input type="checkbox" name="" id="">
+            Wiki / Blog
+        </label>
+       </section>
+       <section class="user-comments">
+        <label for="">
+            Apakah Ada Hal Lain Yang Perlu Kami Tingkatkan?
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+        </label>
+       </section>
+       <input type="submit" id="submit" value="Kirim">
+    </form>
+  </body>
+</html>
