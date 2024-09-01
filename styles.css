@@ -149,6 +149,7 @@ main p {
     margin-top: 1rem;
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
+    padding: 1rem;
 }
 
 .survey-form input[type="submit"] {
